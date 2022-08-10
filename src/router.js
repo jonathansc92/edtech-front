@@ -7,7 +7,7 @@ export default new Router({
     {
       path: "/students",
       name: "students",
-      component: () => import("./components/TableComponent")
+      component: () => import("./components/StudentsLst")
     },
     {
       path: "/add",
