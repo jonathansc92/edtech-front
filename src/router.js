@@ -7,12 +7,17 @@ export default new Router({
     {
       path: "/students",
       name: "students",
-      component: () => import("./components/StudentsLst")
+      component: () => import("./components/Students/Index")
     },
     {
-      path: "/add",
+      path: "/student/add",
       name: "add",
-      component: () => import("./components/AddStudent")
+      component: () => import("./components/Students/Add")
+    },
+    {
+      path: "/student/edit/:id",
+      name: "edit-student",
+      component: () => import("./components/Students/Edit")
     }
   ]
 });

@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <navigation-component
-      :items="[{ title: 'Alunos', icon: 'mdi-school', to: 'students' }]"
+      :items="[{ title: 'Alunos', icon: 'mdi-school', to: '/students' }]"
     ></navigation-component>
     <v-app-bar app></v-app-bar>
     <v-main>
